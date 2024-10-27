@@ -7,7 +7,7 @@ Este repositorio contiene soluciones en C++ para varios ejercicios de programaci
 ### 3.1 Histograma Paralelo
 Implementación de un programa paralelo para calcular un histograma. El proceso 0 lee el conjunto de datos y lo distribuye entre los procesos. Cada proceso calcula los conteos de los intervalos en sus datos locales, y el proceso 0 recopila y muestra el histograma final.
 
-![3.1 Histograma](./3_1.png)
+![3.1 Histograma](ejerimg/3_1.jpeg)
 
 - **Ejecución:** `mpirun -np <n_procesos> ./histograma`
 
